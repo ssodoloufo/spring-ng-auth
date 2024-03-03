@@ -1,0 +1,10 @@
+<p>Welcome, you are successfully longin ! <br> Note : Your JWT Token is valid for 15min.</p>
+
+<pre>
+  <code>
+    {{ user | json}}
+  </code>
+</pre>
+
+<button (click)="logout()">Logout</button>
+<button (click)="getCurrentAuthUser()">Profile</button>
